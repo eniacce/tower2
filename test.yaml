@@ -1,0 +1,7 @@
+---
+- name: deneme
+  hosts: server
+  tasks:
+      - name: Deneme
+        debug:
+          msg: "bu ne lo"
